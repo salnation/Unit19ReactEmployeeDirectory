@@ -23,7 +23,7 @@ function App() {
     </div>
   );
 }
+// this is so that we can test
 
 export default App;
 
-// this is to test

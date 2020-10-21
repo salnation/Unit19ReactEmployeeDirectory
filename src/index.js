@@ -11,6 +11,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// can be changed to unregister but this can create issue **
+// the below can be changed to register but this can create issues 
 
 serviceWorker.unregister();
