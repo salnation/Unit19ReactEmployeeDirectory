@@ -99,7 +99,7 @@ const isLocalhost = Boolean(
       headers: { 'Service-Worker': 'script' },
     })
       .then(response => {
-        // Ensure service worker exists, and that we really are getting a JS file.
+        // this to ensure service worker exists, and that we really are getting a JS file.
         const contentType = response.headers.get('content-type');
         if (
           response.status === 404 ||
